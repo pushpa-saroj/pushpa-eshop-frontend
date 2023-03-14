@@ -8,9 +8,9 @@ function SignUp(){
   }
     return(
     <>
-    <input type="text" placeholder=" FullName"/>
-    <input type="text" placeholder=" FullName"/>
-    <input type="text" placeholder=" FullName"/>
+    <input type="text" placeholder="Full Name"/>
+    <input type="text" placeholder=" Email"/>
+    <input type="password" placeholder=" Password"/>
     <button onClick={handleClick}>
         Sign Up
     </button>
